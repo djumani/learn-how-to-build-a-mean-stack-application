@@ -23,6 +23,7 @@
     "strong-error-handler": "^2.0.0"
   },
   "devDependencies": {
+    "@angular/cli": "^6.2.9",
     "eslint": "^3.17.1",
     "eslint-config-loopback": "^8.0.0",
     "nsp": "^3.2.1"

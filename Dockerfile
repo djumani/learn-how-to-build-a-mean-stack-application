@@ -2,7 +2,8 @@
 FROM node:10
 
 # Create app directory
-WORKDIR /usr/src/lafs
+WORKDIR /usr/deepa/src/lafs
+
 
 # Install app dependencies
 # A wildcard is used to ensure both package.json AND package-lock.json are copied
@@ -22,4 +23,4 @@ EXPOSE 3000
 
 # Command used to start application
 CMD ng serve --host 0.0.0.0
-
+ 
